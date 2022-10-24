@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YourJourney</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+  <nav>
+    <ul>
+      <li><a class="rightop" href="index.html">Home</a></li>
+      <li><a class="rightop" href="accommodation.html">Accommodation</a></li>
+      <li><a class="rightop" href="budget.html">Budget Calculator</a></li>
+      <li><a class="rightop" href="routemap.html">Route Map</a></li>
+    </ul>
+  </nav>
+  <img class=logo src="Images/logo.png" alt="logo">
+  <p class="caption">Calculate how much you gonna spend in you trip with this tool.</p>
+
+
+
+</header>
+<section>
+
+  <body>
+    <br>
+    <a id="bodycaption">Please enter estimated spending on each item </a>
+    <section class="space"></section>
+    <table class="table2">
+      <tr>
+        <th>Flights✈️</th>
+        <th>Accommodations🏨</th>
+        <th>Transport Expenses🚂</th>
+        <th>Food🍔</th>
+        <th>Shopping🛍️</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td><input class="num" type="number" id="n1" autofocus></td>
+        <td><input class="num" type="number" id="n2"></td>
+        <td><input class="num" type="number" id="n3"></td>
+        <td><input class="num" type="number" id="n4"></td>
+        <td><input class="num" type="number" id="n5"></td>
+        <td>
+          <div id="total">0</div><button id="calculate">calculate</button>
+        </td>
+      </tr>
+
+    </table>
+</section>
+<footer>
+  YourJourney is my first website and trying to complement it.
+</footer>
+<script src="script2.js"></script>
+</body>
+
+</html>
